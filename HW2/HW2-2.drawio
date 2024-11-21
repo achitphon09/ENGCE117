@@ -1,0 +1,352 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Page-1" id="PTG6VXwtPRt8TRztxgVq">
+    <mxGraphModel dx="1707" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-1" value="ทบทวนสัญลักษณ์" style="swimlane;fontFamily=Sarabun;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="20" width="650" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-2" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;เริ่มต้น&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry x="20" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="84.5" y="70" as="sourcePoint" />
+            <mxPoint x="84.5" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-4" value="&lt;font face=&quot;Sarabun&quot;&gt;สิ้นสุด&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry x="150" y="90" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="214.5" y="40" as="sourcePoint" />
+            <mxPoint x="214.5" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-6" value="กระบวนการ" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Sarabun;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry x="320" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379" y="40" as="sourcePoint" />
+            <mxPoint x="379.5" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.75" y="100" as="sourcePoint" />
+            <mxPoint x="380.25" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-9" value="ประโยคเงื่อนไข" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Sarabun;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry x="490" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="539.71" y="30" as="sourcePoint" />
+            <mxPoint x="540.21" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="539.71" y="120" as="sourcePoint" />
+            <mxPoint x="540" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-12" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Sarabun;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" vertex="1" connectable="0" parent="dITI-AVT0YsXwvN8Xcpy-11">
+          <mxGeometry x="-0.4142" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1" source="dITI-AVT0YsXwvN8Xcpy-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="95" as="sourcePoint" />
+            <mxPoint x="610" y="175" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-14" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;เท็จ&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dITI-AVT0YsXwvN8Xcpy-13">
+          <mxGeometry x="-0.0019" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-15" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;ฟังก์ชัน/โมดูล&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry x="25" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="84.70999999999998" y="150" as="sourcePoint" />
+            <mxPoint x="85.20999999999998" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="84.70999999999998" y="210" as="sourcePoint" />
+            <mxPoint x="85.20999999999998" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-18" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry x="205" y="185" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="214.70999999999998" y="155" as="sourcePoint" />
+            <mxPoint x="215.20999999999998" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1" target="dITI-AVT0YsXwvN8Xcpy-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="189.99999999999997" y="155" as="sourcePoint" />
+            <mxPoint x="190.49999999999997" y="185" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1" target="dITI-AVT0YsXwvN8Xcpy-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="239.99999999999997" y="155" as="sourcePoint" />
+            <mxPoint x="240.49999999999997" y="185" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="214.70999999999998" y="205" as="sourcePoint" />
+            <mxPoint x="215.20999999999998" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-23" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;ตัวเชื่อม&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry x="220" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="353.71" y="165" as="sourcePoint" />
+            <mxPoint x="354.21" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-25" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.5;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry x="339" y="195" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405.71" y="195" as="sourcePoint" />
+            <mxPoint x="406.21" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-27" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.5;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry x="391" y="165" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-28" value="หน้าต่อไป" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Sarabun;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry x="345" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-29" value="ก" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Sarabun;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry x="339" y="190" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-30" value="ก" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Sarabun;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry x="391" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-31" value="แสดงผล/รับค่า" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Sarabun;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry x="450" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="509.71" y="180" as="sourcePoint" />
+            <mxPoint x="510.21" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="509.71" y="240" as="sourcePoint" />
+            <mxPoint x="510.21" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-34" value="แก้ไขโจทย์ปัญหา" style="swimlane;fontFamily=Sarabun;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="540" width="640" height="2150" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-35" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;เริ่มต้น&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="255" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-36" value="&lt;font face=&quot;Sarabun&quot;&gt;สิ้นสุด&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="255" y="1630" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-39" value="โพสต์หางาน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="260" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-34" source="dITI-AVT0YsXwvN8Xcpy-35" target="dITI-AVT0YsXwvN8Xcpy-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="80" as="sourcePoint" />
+            <mxPoint x="320" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-45" value="ลูกค้าสนใจหรือไม่" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="260" y="270" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-34" source="dITI-AVT0YsXwvN8Xcpy-39" target="dITI-AVT0YsXwvN8Xcpy-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="270" as="sourcePoint" />
+            <mxPoint x="320" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-49" value="F" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="220" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-50" value="เริ่มคุยเนื้อหาของงาน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="260" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-34" source="dITI-AVT0YsXwvN8Xcpy-45" target="dITI-AVT0YsXwvN8Xcpy-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="470" as="sourcePoint" />
+            <mxPoint x="320" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-52" value="T" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="325" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-53" value="ลูกค้าตัดสินใจจ้างงานหรือไม่" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="230" y="590" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-34" source="dITI-AVT0YsXwvN8Xcpy-50" target="dITI-AVT0YsXwvN8Xcpy-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="670" as="sourcePoint" />
+            <mxPoint x="320" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-56" value="F" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="200" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-57" value="ตกลงจ้างงาน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="260" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-34" source="dITI-AVT0YsXwvN8Xcpy-53" target="dITI-AVT0YsXwvN8Xcpy-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="770" as="sourcePoint" />
+            <mxPoint x="320" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-59" value="ลูกค้าจ่ายมัดจำ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="260" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-34" source="dITI-AVT0YsXwvN8Xcpy-57" target="dITI-AVT0YsXwvN8Xcpy-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="970" as="sourcePoint" />
+            <mxPoint x="320" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-62" value="T" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="330" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-63" value="เริ่มงานตามคำสั่งลูกค้า" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="260" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-34" source="dITI-AVT0YsXwvN8Xcpy-59" target="dITI-AVT0YsXwvN8Xcpy-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="970" as="sourcePoint" />
+            <mxPoint x="320" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-65" value="งานเสร็จหรือไม่" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="240" y="1190" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-67" value="คืนเงินมัดจำลูกค้า" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="90" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-34" source="dITI-AVT0YsXwvN8Xcpy-65" target="dITI-AVT0YsXwvN8Xcpy-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="1270" as="sourcePoint" />
+            <mxPoint x="320" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="1265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-69" value="F" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="170" y="1230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-70" value="ลูกค้าจ่ายเงินส่วนที่เหลือ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="440" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-71" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-34" source="dITI-AVT0YsXwvN8Xcpy-65" target="dITI-AVT0YsXwvN8Xcpy-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="1270" as="sourcePoint" />
+            <mxPoint x="320" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="1265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-72" value="T" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="430" y="1230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-73" value="รับเงินมัดจำ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-34">
+          <mxGeometry x="440" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-34" source="dITI-AVT0YsXwvN8Xcpy-70" target="dITI-AVT0YsXwvN8Xcpy-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="1470" as="sourcePoint" />
+            <mxPoint x="320" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-77" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dITI-AVT0YsXwvN8Xcpy-34" source="dITI-AVT0YsXwvN8Xcpy-73" target="dITI-AVT0YsXwvN8Xcpy-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="1610" as="sourcePoint" />
+            <mxPoint x="320" y="1560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="1580" />
+              <mxPoint x="320" y="1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-37" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;โจทย์ปัญหา&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-732.5" y="320" width="675" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-38" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;u&gt;โจทย์&lt;/u&gt;&lt;/b&gt; จงเขียน Flowchart เพื่ออธิบายกระบวนการในการรับงานทำเว็บไซต์จากลูกค้า&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (ดูตัวอย่างได้จากเว็บไซท์ https://www.fastwork.com)&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;font face=&quot;Sarabun&quot;&gt;&lt;b&gt;&lt;u&gt;หมายเหตุ&lt;/u&gt;&lt;/b&gt;&amp;nbsp;ควรมีขั้นตอนครบถ้วน เปรียบเสมือนตัวคุณเอง ที่กำลังอยากเริ่มต้นรับงานทำเว็บไซต์จากลูกค้าของคุณเอง&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; คุณจะต้องคำนึงถึงขั้นตอนทุกอย่างให้รอบคอบตั้งแต่การโพสหางาน การพูดคุยเพื่อคัดกรองลูกค้า&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; การพูดคุยเรื่องความต้องการของลูกค้าเป็นข้อๆให้ชัดเจน การเซ็นต์สัญญารับงาน การรับเงินล่วงหน้าก่อน ฯลฯ&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;font face=&quot;Sarabun&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="dITI-AVT0YsXwvN8Xcpy-37">
+          <mxGeometry x="15" y="20" width="660" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dITI-AVT0YsXwvN8Xcpy-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-450" y="810" as="sourcePoint" />
+            <mxPoint x="-400" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-510" y="865" />
+              <mxPoint x="-510" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dITI-AVT0YsXwvN8Xcpy-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-450" y="1210" as="sourcePoint" />
+            <mxPoint x="-400" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-540" y="1200" />
+              <mxPoint x="-540" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dITI-AVT0YsXwvN8Xcpy-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-450" y="1810" as="sourcePoint" />
+            <mxPoint x="-400" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dITI-AVT0YsXwvN8Xcpy-76" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dITI-AVT0YsXwvN8Xcpy-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-450" y="1950" as="sourcePoint" />
+            <mxPoint x="-400" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-570" y="2060" />
+              <mxPoint x="-660" y="2060" />
+              <mxPoint x="-660" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
