@@ -10,25 +10,25 @@ int main() {
     scanf( "%d %d", &rows1, &cols1 ) ;
     for( i = 0 ; i < rows1 ; i++ ) {
         for( j = 0 ; j < cols1 ; j++ ) {
-            printf( "Enter [%d %d] value : ", i, j ) ;
+            printf( "Enter [%d %d] value : ",i ,j ) ;
             scanf( "%d", &Matrix1[ i ][ j ] ) ;
         }
     }
  
-    printf( "\n Enter Matrix2 : \n ") ;
+    printf( "Enter Matrix2 : \n") ;
     printf( "Enter number rows and columns : " ) ;
     scanf( "%d %d", &rows2, &cols2 ) ;
     for( i = 0 ; i < rows2 ; i++ ) {
         for( j = 0 ; j < cols2 ; j++ ) {
-            printf( "Enter [%d %d] value : ", i , j ) ;
+            printf( "Enter [%d %d] value : ", i, j ) ;
             scanf( "%d", &Matrix2[ i ] [ j ] ) ;
         }
     }
  
-    printf( "\n Matrix1 : \n " ) ;
+    printf( "\n Matrix1 : \n" ) ;
     for( i = 0 ; i < rows1 ; i++ ) {
         for( j = 0 ; j < cols1 ; j++ ) {
-            printf( "%d", Matrix1[ i ][ j ] ) ;
+            printf( "%d ", Matrix1[ i ][ j ] ) ;
         }
         printf( "\n" ) ;
     }
@@ -36,7 +36,7 @@ int main() {
     printf( "\n Matrix2 : \n" ) ;
     for( i = 0 ; i < rows2 ; i++ ) {
         for( j = 0 ; j < cols2 ; j++ ) {
-            printf( "%d", Matrix2[ i ][ j ] ) ;
+            printf( "%d ", Matrix2[ i ][ j ] ) ;
         }
         printf( "\n" ) ;
     }
@@ -52,7 +52,7 @@ int main() {
     printf( "\n Transpose of Matrix1 is : \n" ) ;
     for( i = 0 ; i < rows3 ; i++ ) {
         for( j = 0 ; j < cols3 ; j++ ) {
-            printf( "%d", Matrix3[ i ][ j ] ) ;
+            printf( "%d ", Matrix3[ i ][ j ] ) ;
         }
     printf( "\n" ) ;
     }
