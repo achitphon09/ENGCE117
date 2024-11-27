@@ -6,7 +6,7 @@ int main() {
     int b ; 
     int c ;
     
-    printf( "test case :")  ;
+    printf( "Enter 3 Number :")  ;
     scanf( "%d %d %d", &a, &b, &c ) ;
     printf( "Anwser = %d \n", a + b + c  ) ;
 
