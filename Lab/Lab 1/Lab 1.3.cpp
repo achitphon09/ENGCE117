@@ -1,13 +1,15 @@
-#include <stdio.h>
-#include <stdlib.h> 
-/*int *GetSet( int * ) ;
+/*#include <stdio.h>
+int *GetSet( int * ) ;
 
 int main() {
-    int *data, num ;
-    data = GetSet( &num ) ;
-    return 0 ;
+ int *data, num ;
+ data = GetSet( &num ) ;
+ return 0 ;
 }//end function
 */
+#include <stdio.h>
+#include <stdlib.h> 
+
 int *GetSet(int *num);
 
 int main() {
