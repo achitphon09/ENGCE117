@@ -1,0 +1,2 @@
+Number of elements: 4
+7 14 21 28
