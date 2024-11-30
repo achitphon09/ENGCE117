@@ -31,7 +31,7 @@ int *GetSet( int *num ) {
     printf( "Enter the number of elements: " ) ;
     scanf( "%d", num ) ;
 
-    int *data = (int *)malloc((*num) * sizeof(int));
+    int *data = (int *) malloc ((*num) * sizeof(int));
     if (data == NULL) {
         printf("Memory allocation failed\n");
         exit(1);  // ออกจากโปรแกรมหากจองหน่วยความจำไม่สำเร็จ
