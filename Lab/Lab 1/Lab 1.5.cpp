@@ -8,42 +8,57 @@ int main() {
     return 0 ;
 }//end function*/
 #include <stdio.h>
-#include <stdlib.h> // สำหรับ malloc และ free
 
-void GetMatrix( int **value, int *row, int *col ) {
-    // รับจำนวนแถวและคอลัมน์จากคีย์บอร์ด
-    printf( "Enter the number of rows: " ) ;
-    scanf( "%d", row ) ;
-    printf( "Enter the number of columns: " ) ;
-    scanf("%d", col ) ;
-
-    // จองหน่วยความจำสำหรับเมทริกซ์
-    *value = ( int* ) malloc ( *row * *col * sizeof(int) ) ;
-
-    // รับค่าของสมาชิกในเมทริกซ์จากคีย์บอร์ด
-    printf( "Enter the elements of the matrix: " ) ;
-    for( int i = 0 ; i < *row ; i++ ) {
-        for( int j = 0 ; j < *col ; j++ ) {
-            scanf( "%d", &(*value) [i * ( *col ) + j ] ) ;
-        }
-    }
-}
+void GetMatrix( int value[], int *row, int *col ) ;
 
 int main() {
-    int *data, m, n ;
-    GetMatrix( &data, &m, &n ) ;
+    int data[ 100 ], m, n ;
+    GetMatrix( data, &m, &n ) ;
+    
+    /*if ( m == 0 && n == 0 ) {
+        printf( "Matrix: (empty)\n" ) ;
+        return 0 ;
+    }// end if*/
 
-    // แสดงผลเมทริกซ์
-    printf( "Matrix ( %d x %d ) : \n", m, n ) ;
+    printf( "Matrix (%dx%d): \n", m, n ) ;
     for( int i = 0 ; i < m ; i++ ) {
         for( int j = 0 ; j < n ; j++ ) {
             printf( "%d ", data[ i * n + j ] ) ;
-        }
-        printf( "\n" ) ;
+        }//end for
+    printf( "\n" ) ;
+    }//end for
+    return 0 ;
+}//end function 
+
+void GetMatrix( int value[], int *row, int *col ) {
+    printf( "Enter the number of rows: " ) ;
+    scanf( "%d", row ) ;
+    printf( "Enter the number of columns: " ) ;
+    scanf( "%d", col ) ; 
+
+    if ( ( *row < 0 || *col < 0 ) || ( *row == 0 && *col > 0 ) || ( *row > 0 && *col == 0 ) ) {
+        printf( "Error: Invalid matrix dimentions.\n" ) ;
+        *row = *col = 0 ;
+        return  ;
+    }//end if
+
+    if ( *row == 0 && *col == 0 ) {
+        printf( "Matrix : \n(empty)" ) ; 
+        return ; //end if 
     }
 
-    // ปล่อยหน่วยความจำที่จอง
-    free( data ) ;
+    printf( "Enter the elements of the matrix: " ) ;
+    int total = *row * *col ;
+    for( int i = 0 ; i < total ; i++ ) {
+        if( scanf( "%d", &value[ i ] ) != 1 ) {
+            printf( "Error: Incorrect number of elements.\n" ) ;
+            *row = *col = 0 ;
+            return ;
+        }//end if
+    }//end for
+}//end function
 
-    return 0 ;
-}
+    
+
+
+
