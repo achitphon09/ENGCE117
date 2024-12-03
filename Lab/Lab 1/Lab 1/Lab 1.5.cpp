@@ -9,15 +9,15 @@ int main() {
 }//end function*/
 #include <stdio.h>
 
-void GetMatrix( int *value[], int *row, int *col ) ;// ประกาศใช้ฟังก์ชั่น  GetMatrix
+void GetMatrix( int *value[ ], int *row, int *col ) ;// ประกาศใช้ฟังก์ชั่น  GetMatrix
 
 int main() {
     int *data, m, n ;//ประกาศตัวแปรสำหรับเก็บข้อมูลเมทริกและขนาด
     GetMatrix( &data, &m, &n ) ;//เรียกใช้ฟังก์ชั่น
-    return 0 ;//จบการทำงาน
+    return 0 ;
 }//end function
 
- void GetMatrix( int *value[], int *row, int *col ) {
+ void GetMatrix( int *value[ ], int *row, int *col ) {
     
 
     printf( "Enter the number of rows: " ) ;
@@ -27,7 +27,6 @@ int main() {
 
     for( int i = 0 ; i < *row * *col ; i++ ){
         value[ i ] = new int[ i ] ;
-        //scanf( "%d", value[ i ] ) ;
     }
 
     if( *row == 0 && *col == 0 ) {
