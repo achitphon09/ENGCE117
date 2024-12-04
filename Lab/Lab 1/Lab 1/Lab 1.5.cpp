@@ -27,7 +27,7 @@ int main() {
 
     for( int i = 0 ; i < *row * *col ; i++ ){
         value[ i ] = new int[ i ] ;
-    }
+    }//end for
 
     if( *row == 0 && *col == 0 ) {
         printf( "Matrix: (empty)\n" ) ;

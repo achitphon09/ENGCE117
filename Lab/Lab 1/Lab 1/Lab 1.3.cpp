@@ -19,9 +19,9 @@ int main() {
 
     for( int i = 0 ; i < num ; i++ ) {
         printf( "%d ", data[ i ] ) ;
-    }
+    }//end for
     return 0 ; 
-}
+}//end function
 
 int *GetSet( int *num ) {
     printf( "Enter the number of elements: " ) ;
@@ -32,7 +32,7 @@ int *GetSet( int *num ) {
     printf( "Enter the elements: " ) ;
     for( int i = 0 ; i < ( *num ) ; i++ ) {
         scanf( "%d", &j[ i ] ) ;
-    }
+    }//end for
     return j ;
-}
+}//end function
 

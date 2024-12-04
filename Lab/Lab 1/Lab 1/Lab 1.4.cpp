@@ -19,10 +19,10 @@ int GetSet( int data [ ] ) {
     printf( "Enter the elements: " ) ;
     for ( i = 0 ; i < n ; i++ ) {
         scanf( "%d", &data [ i ] ) ;
-    }
+    }//end for
 
     return n ;
-}
+}//end function
 
 int main() {
     int num ;
@@ -33,8 +33,8 @@ int main() {
     printf( "Number of elements: %d\n", num ) ;
     for (int i = 0 ; i < num ; i++ ) {
         printf( "%d ", data[ i ] ) ;
-    }
+    }//end for
     printf( "\n" ) ;
 
     return 0 ;
-}
+}//end function

@@ -7,7 +7,6 @@ int main() {
     char out[ 20 ][ 10 ] ;
     int num ;
     explode( "Hello  World  From Me", ",-*!: /", out, &num ) ;
-    // explode( ",,   ,Hello, World!   , ,", ", /", out, &num ) ;
 
 
     for( int i; i < num ; i++ ) {
