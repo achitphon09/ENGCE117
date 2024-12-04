@@ -34,7 +34,7 @@ void explode( char str1[ ], char splitter, char str2[ ][ 10 ], int *count ) {
     int len = strlen( str1 ) ;
     for( int i = 0 ; i < len ; i++ ) {
         if( str1[ i ] == splitter ) {
-            str2[ k ][j] = '\0';
+            str2[ k ][ j ] = '\0';
             k++ ;
             j = 0;
             continue ;
