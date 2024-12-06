@@ -24,8 +24,8 @@ int main() {
             if( Yes_or_No == 'n' ) {
             printf( ">> ซื้อบะหมี่กึ่งสำเร็จรูป <<\n" ) ;
             printf( "-----------------------\n" ) ;
-            }
-        }
+            }//end if
+        }//end if
         printf( "กลับบ้าน\n" ) ;
         
 
@@ -41,7 +41,7 @@ int main() {
                 scanf( " %c", &Yes_or_No ) ;
             }
             while ( Yes_or_No == 'n' ) ;
-        }
+        }//end if
     }
         while ( Yes_or_No == 'y' ) ;
         printf( "-----------------------\n" ) ;
@@ -63,10 +63,10 @@ int main() {
             printf( ">> นำบะหมี่ใส่ชาม <<\n" ) ;
 
             break ;
-  }
-    }
+  }//end if
+    }//end while
     return 0 ;  
-}
+}//end function
     
 
 
