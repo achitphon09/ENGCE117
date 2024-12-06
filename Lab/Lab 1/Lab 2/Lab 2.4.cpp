@@ -6,7 +6,7 @@ void explode( char str1[ ], char splitters[ ], char str2[ ][ 10 ], int *count ) 
 int main() {
     char out[ 20 ][ 10 ] ;
     int num ;
-    explode( "Hello  World  From Me", ",-*!: /", out, &num ) ;
+    explode( "Apple,,Orange,Banana,,Grapes", ",-*!: /", out, &num ) ;
 
 
     for( int i; i < num ; i++ ) {

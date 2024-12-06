@@ -27,5 +27,4 @@ void reverse( char str1[], char str2[] ) {
         printf( "%c", str2[ j ] ) ;
         j++ ;
     }
-    
 } 

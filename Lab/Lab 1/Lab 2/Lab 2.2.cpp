@@ -9,7 +9,7 @@ int main() {
 #include <stdio.h>
 char* reverse( char str1[] ) ;
 int main() {
-    char text[ 50 ] = "The quick  brown    fox" ;
+    char text[ 50 ] = "This is a long sentence to test the function." ;
     char *out ;
     out = reverse( text ) ;
 }
