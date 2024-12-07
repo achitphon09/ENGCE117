@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="หน้า-1" id="Tc7fu8D6kHjBrscWEs_x">
+    <mxGraphModel dx="1034" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qIKkCxl1A6C5FUq1VsoX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qIKkCxl1A6C5FUq1VsoX-1" target="qIKkCxl1A6C5FUq1VsoX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qIKkCxl1A6C5FUq1VsoX-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qIKkCxl1A6C5FUq1VsoX-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qIKkCxl1A6C5FUq1VsoX-2" target="qIKkCxl1A6C5FUq1VsoX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qIKkCxl1A6C5FUq1VsoX-2" value="float H ;&lt;div&gt;float W ;&lt;/div&gt;&lt;div&gt;float area ;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qIKkCxl1A6C5FUq1VsoX-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qIKkCxl1A6C5FUq1VsoX-4" target="qIKkCxl1A6C5FUq1VsoX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qIKkCxl1A6C5FUq1VsoX-4" value="แสดงคำว่า Enter H &amp;amp; W :" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="390" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qIKkCxl1A6C5FUq1VsoX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qIKkCxl1A6C5FUq1VsoX-6" target="qIKkCxl1A6C5FUq1VsoX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qIKkCxl1A6C5FUq1VsoX-6" value="รับค่า H , W" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qIKkCxl1A6C5FUq1VsoX-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qIKkCxl1A6C5FUq1VsoX-8" target="qIKkCxl1A6C5FUq1VsoX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qIKkCxl1A6C5FUq1VsoX-8" value="area = ( H * W ) / 2" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qIKkCxl1A6C5FUq1VsoX-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qIKkCxl1A6C5FUq1VsoX-10" target="qIKkCxl1A6C5FUq1VsoX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qIKkCxl1A6C5FUq1VsoX-10" value="แสดงคำตอบการคำนวณพื้นที่" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="325" y="810" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qIKkCxl1A6C5FUq1VsoX-12" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="960" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
