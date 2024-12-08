@@ -1,0 +1,120 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="หน้า-1" id="UJrVtTa4lxKxTJ_6EP4m">
+    <mxGraphModel dx="1034" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B06hzNjG-ajE5fTLIRw0-1" target="B06hzNjG-ajE5fTLIRw0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B06hzNjG-ajE5fTLIRw0-2" target="B06hzNjG-ajE5fTLIRw0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-2" value="กำหนด ตัวแปร num1, num2, num3" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B06hzNjG-ajE5fTLIRw0-4" target="B06hzNjG-ajE5fTLIRw0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-4" value="รับค่าจากผู้ใช้ 3 ตัว" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B06hzNjG-ajE5fTLIRw0-6" target="B06hzNjG-ajE5fTLIRw0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-6" value="แสดงคำว่า&amp;nbsp;&lt;div&gt;1st Number :&lt;div&gt;2nd Number :&lt;/div&gt;&lt;div&gt;3rd Number :&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="440" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B06hzNjG-ajE5fTLIRw0-8" target="B06hzNjG-ajE5fTLIRw0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B06hzNjG-ajE5fTLIRw0-8" target="B06hzNjG-ajE5fTLIRw0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-8" value="num1 &amp;gt; num2 และ num1 &amp;gt; num3" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="610" width="195" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-10" value="แสดงคำว่า The 1st Number greatest among three" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="637.5" width="185" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B06hzNjG-ajE5fTLIRw0-12" target="B06hzNjG-ajE5fTLIRw0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B06hzNjG-ajE5fTLIRw0-12" target="B06hzNjG-ajE5fTLIRw0-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-12" value="num2 &amp;gt; num1 และ num2 &amp;gt; num3" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="800" width="195" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-14" value="แสดงคำว่า The 1st Number greatest among three" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="827.5" width="185" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B06hzNjG-ajE5fTLIRw0-16" target="B06hzNjG-ajE5fTLIRw0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B06hzNjG-ajE5fTLIRw0-16" target="B06hzNjG-ajE5fTLIRw0-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-16" value="num1 = num1=2 และ num1 = num3" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="990" width="195" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-18" value="แสดงคำว่า All of three equal" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1017.5" width="185" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B06hzNjG-ajE5fTLIRw0-22" target="B06hzNjG-ajE5fTLIRw0-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-22" value="แสดงคำว่า The 3rd Number is greatest among three" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1235" width="200" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-24" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-26" value="T" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="637.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-27" value="T" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="827.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-28" value="T" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-29" value="F&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22T%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22500%22%20y%3D%22827.5%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-30" value="F&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22T%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22500%22%20y%3D%22827.5%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-31" value="F&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22T%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22500%22%20y%3D%22827.5%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-32" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1340" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.15;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B06hzNjG-ajE5fTLIRw0-10" target="B06hzNjG-ajE5fTLIRw0-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="675" />
+              <mxPoint x="920" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-34" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="855" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.1;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B06hzNjG-ajE5fTLIRw0-14" target="B06hzNjG-ajE5fTLIRw0-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-37" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1045" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B06hzNjG-ajE5fTLIRw0-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.05;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B06hzNjG-ajE5fTLIRw0-18" target="B06hzNjG-ajE5fTLIRw0-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
