@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="หน้า-1" id="izRhw32qIT9yU1jWaPba">
+    <mxGraphModel dx="1034" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sjYUCllJdzVnwF9VT4zy-1" target="sjYUCllJdzVnwF9VT4zy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sjYUCllJdzVnwF9VT4zy-2" target="sjYUCllJdzVnwF9VT4zy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-2" value="สร้างตัวแปร y" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sjYUCllJdzVnwF9VT4zy-4" target="sjYUCllJdzVnwF9VT4zy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-4" value="แสดงคำว่า Year(s) :" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="330" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sjYUCllJdzVnwF9VT4zy-6" target="sjYUCllJdzVnwF9VT4zy-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-6" value="รับค่าจากผู้ใช้" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sjYUCllJdzVnwF9VT4zy-8" target="sjYUCllJdzVnwF9VT4zy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sjYUCllJdzVnwF9VT4zy-8" target="sjYUCllJdzVnwF9VT4zy-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-8" value="ถ้า y หาร 4 ไม่ลงตัว หรือ y หาร 4 ลงตัว&lt;div&gt;และ y หาร 100 ลงตัวและหาร 400 ไม่ลงตัว&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="590" width="305" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-10" value="แสดงคำว่า February has 28 days" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="729" y="622.5" width="245" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sjYUCllJdzVnwF9VT4zy-12" target="sjYUCllJdzVnwF9VT4zy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sjYUCllJdzVnwF9VT4zy-12" target="sjYUCllJdzVnwF9VT4zy-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-12" value="ถ้า y หาร 4 ลงตัว หรือ y หาร 100 ไม่ลงตัว&lt;div&gt;และหาร 400 ลงตัว&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="820" width="305" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-14" value="แสดงคำว่า February has 29 days" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="852.5" width="245" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-16" value="T&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%B3%E0%B8%A7%E0%B9%88%E0%B8%B2%20February%20has%2028%20days%22%20style%3D%22shape%3Dparallelogram%3Bperimeter%3DparallelogramPerimeter%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfixedSize%3D1%3BstrokeWidth%3D2%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22729%22%20y%3D%22622.5%22%20width%3D%22245%22%20height%3D%2285%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="622.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-17" value="T&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%B3%E0%B8%A7%E0%B9%88%E0%B8%B2%20February%20has%2028%20days%22%20style%3D%22shape%3Dparallelogram%3Bperimeter%3DparallelogramPerimeter%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfixedSize%3D1%3BstrokeWidth%3D2%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22729%22%20y%3D%22622.5%22%20width%3D%22245%22%20height%3D%2285%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="852.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-18" value="F" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="740" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-19" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1169" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-22" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="885" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sjYUCllJdzVnwF9VT4zy-14" target="sjYUCllJdzVnwF9VT4zy-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-25" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1115" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sjYUCllJdzVnwF9VT4zy-10" target="sjYUCllJdzVnwF9VT4zy-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1090" y="665" />
+              <mxPoint x="1090" y="1120" />
+              <mxPoint x="400" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sjYUCllJdzVnwF9VT4zy-28" value="F" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="980" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
