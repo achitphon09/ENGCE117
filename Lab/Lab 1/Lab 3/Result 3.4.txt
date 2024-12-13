@@ -1,0 +1,25 @@
+2
+Room 1:
+Student 1 : John 18
+Student 2 : Alice 19
+Student 3 : Bob 17
+Student 4 : Carol 20
+Student 5 : David 18
+Student 6 : Eva 21
+Student 7 : Frank 22
+Student 8 : Grace 19
+Student 9 : Helen 18
+Student 10 : Jack 20
+Room 2: 
+Student 1 : Leo 21
+Student 2 : Mia 22
+Student 3 : Nick 20
+Student 4 : Olivia 19
+Student 5 : Peter 23
+Student 6 : Quinn 21
+Student 7 : Rachel 19
+Student 8 : Steve 18
+Student 9 : Tom 22
+Student 10 : Ursula 20
+Room 1 : 10 students entered.
+Room 2 : 10 students entered.

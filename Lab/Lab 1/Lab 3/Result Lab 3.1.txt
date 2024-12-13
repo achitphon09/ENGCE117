@@ -1,0 +1,11 @@
+sex = 'M', gpa = 3.00
+In function 3.30
+main 3.00
+-------------------------
+sex = 'F', gpa = 4.00
+In function 4.00
+main 4.00
+-------------------------
+sex = 'F', gpa = 2.58
+In function 3.10
+main 2.58

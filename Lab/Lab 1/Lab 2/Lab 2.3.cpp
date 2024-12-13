@@ -26,7 +26,7 @@ int main() {
     return 0 ;
 }//end function
 
-// *str[10]
+// *str[10]  //hello
 // str[][10]
 void explode( char str1[ ], char splitter, char str2[ ][ 10 ], int *count ) {
     int  j = 0 ;

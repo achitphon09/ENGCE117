@@ -13,13 +13,12 @@ int main() {
 #include <stdio.h>
 #include <string.h>
 
-void GetSet( int *[ ], int *num ) ;//ประกาศใช้ฟังก์ชั่น GetSet
+void GetSet( int data[ ], int *num ) ;//ประกาศใช้ฟังก์ชั่น GetSet
 
 int main() {
-    int *data ;
-    int num ;
-    GetSet( &data, &num ) ;
-
+    int *data, num ;
+    data = new int[ num ] ;
+    GetSet( data, &num ) ; 
     for ( int i = 0 ; i < num ; i++ ) {
         printf( "%d ", data[ i ] ) ;
     }//end for
@@ -27,12 +26,12 @@ int main() {
     return 0 ;
 }//end function
 
-void GetSet( int *data[ ], int *num ) {
+void GetSet( int data[ ], int *num ) {
     scanf( "%d", num ) ;
-    *data = new int[ *num ] ;
     for(int i = 0 ; i < *num ; i++ ) {
-        scanf( "%d", &(*data) [ i ] ) ;
+        scanf( "%d", &data[ i ] ) ;
     } //end for
+
 }//end function
 
 
