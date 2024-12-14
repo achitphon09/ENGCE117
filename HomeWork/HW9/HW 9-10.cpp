@@ -20,7 +20,7 @@ int main() {
             transpose[ j ][ i ] = array[ i ][ j ] ;
         }
     }
-
+    printf( "--------------------------\n" ) ;
     printf( "Array\n" ) ;
     for( int i = 0 ; i < row ; i++ ) {
         for( int j = 0 ; j < col ; j++ ) {
@@ -30,9 +30,9 @@ int main() {
     }
     printf( "Array Transpose\n" ) ;
     for(int i = 0 ; i < col ; i++ ) {
-        for( int j = 0 ; j < row ; j++ ) [
+        for( int j = 0 ; j < row ; j++ ) {
             printf( "%d ", transpose[ i ][ j ] ) ;
-        ]
+        }
         printf( "\n" ) ;
     }
     return 0 ;
