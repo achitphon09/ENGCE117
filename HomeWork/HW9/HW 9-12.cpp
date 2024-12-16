@@ -18,7 +18,7 @@ void modifyMatrix( int matrix[ 10 ][ 10 ], int size, int mode ) {
         } //end for
     } else if ( mode == -1 ) {
         for ( int i = 0 ; i < size - 1 ; i ++ ) {
-            for ( int j = size - 1 - i ; j < size ; j ++ ) {
+            for ( int j = 1 + i ; j < size ; j ++ ) {
                 matrix[ i ][ j ] = 0 ;
             } //end for
         } //end for

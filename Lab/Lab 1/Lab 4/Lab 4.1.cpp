@@ -16,7 +16,6 @@ void go( int **p, int *z ) {
     *p = z ;
     printf( "%d %p %p\n", **p, *p, p ) ;
 }
-    
 
 int main() {
     int *a, b = 10, c = 20 ;
