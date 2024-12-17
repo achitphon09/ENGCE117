@@ -1,0 +1,27 @@
+Student A : 
+Name : 
+Payna
+Score : 
+77.77
+
+Student B :
+Name :
+Zanis
+Score : 
+88.88
+
+Student C :
+Name :
+Lubu
+Score : 
+66.66
+
+Student D :
+Name :
+Krixi
+Score : 
+99.99
+
+Output :
+    Krixi Zanis Payna Lubu
+    99.99 88.88 77.77 66.66

@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="หน้า-1" id="MpUfHB2ehLWMUyZzIvzF">
+    <mxGraphModel dx="1034" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aBS4FekIh5GD4D7Blh7d-1" target="aBS4FekIh5GD4D7Blh7d-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aBS4FekIh5GD4D7Blh7d-2" target="aBS4FekIh5GD4D7Blh7d-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-2" value="ประกาศโครงสร้าง struct" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aBS4FekIh5GD4D7Blh7d-4" target="aBS4FekIh5GD4D7Blh7d-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-4" value="กำหนดตัวแปร" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aBS4FekIh5GD4D7Blh7d-6" target="aBS4FekIh5GD4D7Blh7d-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aBS4FekIh5GD4D7Blh7d-6" target="aBS4FekIh5GD4D7Blh7d-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-6" value="ผู้ใช้พิมพ์ตัว y ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="366" y="620" width="96" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aBS4FekIh5GD4D7Blh7d-10" target="aBS4FekIh5GD4D7Blh7d-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-10" value="รับข้อมูลพนักงาน ชื่อ เงินเดือน ระยะปีที่ทำงาน" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="276" y="790" width="276" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aBS4FekIh5GD4D7Blh7d-12" target="aBS4FekIh5GD4D7Blh7d-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-12" value="เปรียบเทียบอายุปีการทำงาน" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aBS4FekIh5GD4D7Blh7d-14" target="aBS4FekIh5GD4D7Blh7d-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="1150" />
+              <mxPoint x="140" y="469" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-14" value="คำนวณเงินเดือนเฉลี่ย" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aBS4FekIh5GD4D7Blh7d-18" target="aBS4FekIh5GD4D7Blh7d-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-18" value="แสดง&amp;nbsp;Do you want to Enter Employee Information? (y/n) " style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="500" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-26" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="404" y="460" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-27" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="718" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aBS4FekIh5GD4D7Blh7d-28" target="aBS4FekIh5GD4D7Blh7d-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="1280" />
+              <mxPoint x="414" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-28" value="แสงผลลัพธ์" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aBS4FekIh5GD4D7Blh7d-30" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1330" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="หน้า-1" id="2fP0fBzuyMVh4tQgOWYC">
+    <mxGraphModel dx="1034" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C89_MKraMe-99a8Fj606-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C89_MKraMe-99a8Fj606-1" target="C89_MKraMe-99a8Fj606-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C89_MKraMe-99a8Fj606-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C89_MKraMe-99a8Fj606-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C89_MKraMe-99a8Fj606-10" target="C89_MKraMe-99a8Fj606-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C89_MKraMe-99a8Fj606-10" value="กำหนด struct" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C89_MKraMe-99a8Fj606-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C89_MKraMe-99a8Fj606-12" target="C89_MKraMe-99a8Fj606-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C89_MKraMe-99a8Fj606-12" value="สร้างโปรโตไทป์" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C89_MKraMe-99a8Fj606-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C89_MKraMe-99a8Fj606-14" target="C89_MKraMe-99a8Fj606-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C89_MKraMe-99a8Fj606-14" value="รับค่าข้อมูลนักเรียนผ่านฟังก์ชั่น Score" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C89_MKraMe-99a8Fj606-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C89_MKraMe-99a8Fj606-16" target="C89_MKraMe-99a8Fj606-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C89_MKraMe-99a8Fj606-16" value="เรียงลำดับข้อมูล" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C89_MKraMe-99a8Fj606-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C89_MKraMe-99a8Fj606-18" target="C89_MKraMe-99a8Fj606-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C89_MKraMe-99a8Fj606-18" value="แสดงผลข้อมูล" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C89_MKraMe-99a8Fj606-20" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="960" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

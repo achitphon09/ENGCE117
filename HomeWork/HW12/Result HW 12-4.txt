@@ -1,0 +1,36 @@
+Employee 1 Name : 
+Aey
+EXP : 
+9956
+Employee 2 Name :
+j
+EXP :
+4900
+Employee 3 Name :
+A
+EXP :
+4560
+Employee 4 Name :
+Orio
+EXP : 
+200
+Employee 5 Name : 
+Vistra
+EXP : 
+1656
+Employee 6 Name : 
+Oh
+EXP : 
+2300
+Employee 7 Name : 
+-1
+
+**** Salary Result ****
+x1.0 count 1
+x1.2 count 1
+x1.4 count 1
+x1.6 count 0
+x1.8 count 2
+x2.0 count 1
+The Employee get x2.0 is Aey    
+The Employee get x1.0 is Orio 

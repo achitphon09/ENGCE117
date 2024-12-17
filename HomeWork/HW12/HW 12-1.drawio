@@ -1,0 +1,167 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="หน้า-1" id="GSXagfKp4qZiFRXJXeur">
+    <mxGraphModel dx="1034" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-1" target="fUFlwiw1G6l-rbmL_mYs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-2" target="fUFlwiw1G6l-rbmL_mYs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-2" value="สร้าง struct Person&lt;div&gt;char Name[ 100 ]&lt;/div&gt;&lt;div&gt;int Age ;&lt;/div&gt;&lt;div&gt;char Sex ;&lt;/div&gt;&lt;div&gt;float Score ;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="250" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-4" target="fUFlwiw1G6l-rbmL_mYs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-4" value="struct Person A&lt;div&gt;Struct Person B&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-6" target="fUFlwiw1G6l-rbmL_mYs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-6" value="แสดงคำว่า Person A" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="640" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-8" target="fUFlwiw1G6l-rbmL_mYs-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-8" value="แสดงคำว่า Name :" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-10" target="fUFlwiw1G6l-rbmL_mYs-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-10" value="รับค่าจากผู้ใช้" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-12" target="fUFlwiw1G6l-rbmL_mYs-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-12" value="แสดงคำว่า Age :" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-14" target="fUFlwiw1G6l-rbmL_mYs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-14" value="รับค่าจากผู้ใช้" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-16" target="fUFlwiw1G6l-rbmL_mYs-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-16" value="แสดงคำว่า Sex :" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-18" target="fUFlwiw1G6l-rbmL_mYs-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-18" value="รับค่าจากผู้ใช้" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-20" target="fUFlwiw1G6l-rbmL_mYs-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-20" value="แสดงคำว่า Score :" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-24" target="fUFlwiw1G6l-rbmL_mYs-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-24" value="รับค่าจากผู้ใช้" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1724" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-26" target="fUFlwiw1G6l-rbmL_mYs-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-26" value="แสดงคำว่า Person B" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1870" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-28" target="fUFlwiw1G6l-rbmL_mYs-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-28" value="แสดงคำว่า Name :" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-30" target="fUFlwiw1G6l-rbmL_mYs-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-30" value="รับค่าจากผู้ใช้" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-32" target="fUFlwiw1G6l-rbmL_mYs-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-32" value="แสดงคำว่า Age :" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-34" target="fUFlwiw1G6l-rbmL_mYs-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-34" value="รับค่าจากผู้ใช้" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-36" target="fUFlwiw1G6l-rbmL_mYs-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-36" value="แสดงคำว่า Sex :" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-38" target="fUFlwiw1G6l-rbmL_mYs-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-38" value="รับค่าจากผู้ใช้" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-40" target="fUFlwiw1G6l-rbmL_mYs-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="2940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-40" value="แสดงคำว่า Score :" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-41" target="fUFlwiw1G6l-rbmL_mYs-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-41" value="รับค่าจากผู้ใช้" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2954" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-43" target="fUFlwiw1G6l-rbmL_mYs-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-43" value="แสดงคำว่า Person A information" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="3090" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-46" target="fUFlwiw1G6l-rbmL_mYs-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-46" value="แสดงข้อมูลที่ผู้ใช้กรอก" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="3230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-49" target="fUFlwiw1G6l-rbmL_mYs-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-49" value="แสดงคำว่า Person B information" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="3370" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fUFlwiw1G6l-rbmL_mYs-50" target="fUFlwiw1G6l-rbmL_mYs-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-50" value="แสดงข้อมูลที่ผู้ใช้กรอก" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="3507" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUFlwiw1G6l-rbmL_mYs-52" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="3650" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
