@@ -13,8 +13,7 @@ int main() {
             printf( "Enter [%d %d] value : ",i ,j ) ;
             scanf( "%d", &Matrix1[ i ][ j ] ) ;
         }
-    }
- 
+    } 
     printf( "Enter Matrix2 : \n") ;
     printf( "Enter number rows and columns : " ) ;
     scanf( "%d %d", &rows2, &cols2 ) ;
@@ -24,7 +23,6 @@ int main() {
             scanf( "%d", &Matrix2[ i ] [ j ] ) ;
         }
     }
- 
     printf( "\n Matrix1 : \n" ) ;
     for( i = 0 ; i < rows1 ; i++ ) {
         for( j = 0 ; j < cols1 ; j++ ) {
@@ -32,7 +30,6 @@ int main() {
         }
         printf( "\n" ) ;
     }
- 
     printf( "\n Matrix2 : \n" ) ;
     for( i = 0 ; i < rows2 ; i++ ) {
         for( j = 0 ; j < cols2 ; j++ ) {
@@ -40,7 +37,6 @@ int main() {
         }
         printf( "\n" ) ;
     }
-
     rows3 = cols1 ;
     cols3 = rows1 ;
     for( i = 0 ; i < rows3 ; i++ ) {
@@ -48,7 +44,6 @@ int main() {
             Matrix3[ i ][ j ] = Matrix1[ j ][ i ] ;
         }
     }
-    
     printf( "\n Transpose of Matrix1 is : \n" ) ;
     for( i = 0 ; i < rows3 ; i++ ) {
         for( j = 0 ; j < cols3 ; j++ ) {
@@ -56,7 +51,6 @@ int main() {
         }
     printf( "\n" ) ;
     }
-    
     if( cols1 != rows2 ) {
         printf( "\n Matrix1 and Matrix2 connot multiply \n" ) ;
     } 
@@ -77,8 +71,7 @@ int main() {
                 printf( "%d ", Matrix4[ i ][ j ]  ) ;
             }
         printf( "\n" ) ;
-        }//end for
-     
+        }//end for     
     }//end if
     return 0;
     }//end function

@@ -1,9 +1,20 @@
+/*#include <stdio.h>
+
+void GetStudent( struct student child[][ 10 ], int *room ) ;
+
+int main() {
+    struct student children[ 20 ][ 10 ] ;
+    int group ;
+    GetStudent( children, &group ) ;
+    return 0 ;
+}//end function*/
 #include <stdio.h>
+
 struct student {
     char name[ 20 ] ;
     int age ;
-  
 } ;
+
 void GetStudent( struct student child[][ 10 ], int *room ) ;
 
 int main() {
