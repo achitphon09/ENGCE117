@@ -33,7 +33,3 @@ void GetSet( int data[ ], int *num ) {
     } //end for
 
 }//end function
-
-
-
-

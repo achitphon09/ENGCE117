@@ -20,8 +20,8 @@ int main() {
     explode( "I/Love/You", '/', out, &num ) ;
 
     for( int i = 0 ; i < num ; i++ ) {
-        printf("str2[%d] = %s\n", i , out[ i ] ) ; 
-    }
+        printf( "str2[%d] = %s\n", i , out[ i ] ) ; 
+    }//end for
     printf( "count = %d", num ) ;
     return 0 ;
 }//end function
@@ -38,12 +38,12 @@ void explode( char str1[ ], char splitter, char str2[ ][ 10 ], int *count ) {
             k++ ;
             j = 0;
             continue ;
-        }
+        }//end if
         str2[ k ][ j ] = str1[ i ] ;
         j++ ;
-    }
+    }//end for
     *count = k + 1 ;
-}
+}// end function
 
 
     

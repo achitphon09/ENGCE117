@@ -18,7 +18,7 @@ int main() {
     char out[ 50 ] ;
     reverse( text, out ) ;
     return 0 ;
-}
+}//end function
 
 void reverse( char str1[], char str2[] ) {
     int j = 0 ;
@@ -26,5 +26,5 @@ void reverse( char str1[], char str2[] ) {
         str2[ j ] = str1[ i ] ;
         printf( "%c", str2[ j ] ) ;
         j++ ;
-    }
-} 
+    }//end for
+}//end function

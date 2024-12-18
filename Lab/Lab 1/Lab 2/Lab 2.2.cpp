@@ -12,7 +12,7 @@ int main() {
     char text[ 50 ] = "The quick  brown    fox." ;
     char *out ;
     out = reverse( text ) ;
-}
+}//end function
 
 char* reverse ( char str1[] ) {
     int j = 0 ;
@@ -21,7 +21,7 @@ char* reverse ( char str1[] ) {
         str2[ j ] = str1[ i ] ;
         printf( "%c", str2[ j ] ) ;
         j++ ;
-    }
+    }//end for
     return str2 ;
-}
+}//end function
 

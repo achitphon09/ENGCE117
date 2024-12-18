@@ -30,13 +30,13 @@ struct student ( *GetStudent( int *room ) )[ 10 ] {
         for( int j = 1 ; j <= 10 ; j++ ) {
             printf( "Student %d : ", j ) ;
             scanf( "%s %d", &child[ i ][ j ].name, &child[ i ][ j ].age ) ;
-        }
-    }
+        }//end for
+    }//end for
     for( int i = 1 ; i <= *room ; i++ ) {
             printf( "Room %d : 10 students entered.\n", i ) ;
             
-        }
+        }//end for
         
     return child ;
-}
+}//end function
 

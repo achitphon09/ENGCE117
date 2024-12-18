@@ -17,7 +17,7 @@ int main() {
 }//end function
 
  
- int *GetMatrix( int *row, int *col ) {
+int *GetMatrix( int *row, int *col ) {
     int *value ;
     scanf( "%d %d", row, col ) ;//ใส่แถว คอลัมน์
 

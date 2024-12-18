@@ -37,7 +37,7 @@ void explode( char str1[], char splitters[], char str2[][ 10 ], int *count ) {
             
             if( i == ( len - 1 ) || strchr( splitters, str1[ i + 1 ] ) != NULL || j == 0 ) {
                 continue ;
-            }
+            }//end if
 
             str2[ k ][ j ] = '\0' ; 
             j = 0 ; 
