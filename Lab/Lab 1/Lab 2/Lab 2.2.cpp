@@ -8,6 +8,7 @@ int main() {
 
 #include <stdio.h>
 char* reverse( char str1[] ) ;
+
 int main() {
     char text[ 50 ] = "The quick  brown    fox." ;
     char *out ;

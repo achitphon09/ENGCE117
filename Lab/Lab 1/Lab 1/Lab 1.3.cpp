@@ -9,7 +9,7 @@ int main() {
 */
 #include <stdio.h>
 
-int *GetSet( int * ) ;
+int* GetSet( int * ) ;
 
 int main() {
     int *data, num ;

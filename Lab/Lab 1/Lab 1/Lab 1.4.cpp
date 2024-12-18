@@ -10,19 +10,19 @@ int main() {
 
 #include <stdio.h>
 
-int GetSet( int *arr[ ] ) ;
+int GetSet( int arr[ ] ) ;
 
 int main() {
     int *data, num ;  // กำหนดอาร์เรย์ขนาดคงที่
-    num = GetSet( &data ) ;
+    num = GetSet( data ) ;
 
     printf( "\n" ) ;
     return 0 ;
 }//end function
 
-int GetSet( int *arr[ ] ) {
+int GetSet( int arr[ ] ) {
     int n ;
-    *arr = new int[ n ] ;
+    arr = new int[ n ] ;
     printf( "Enter the number of elements: " ) ;
     scanf( "%d", &n ) ;
 
@@ -31,9 +31,9 @@ int GetSet( int *arr[ ] ) {
         scanf( "%d", &( *arr ) [ i ] ) ;
     }//end for
 
-        printf( "Number of elements: %d\n", n ) ;
+    printf( "Number of elements: %d\n", n ) ;
     for (int i = 0 ; i < n ; i++ ) {
-        printf( "%d ", ( *arr )[i] ) ;
+    printf( "%d ", ( *arr )[ i ] ) ;
     }//end for
     printf( "\n" ) ;
 
