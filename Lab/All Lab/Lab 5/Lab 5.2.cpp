@@ -28,7 +28,7 @@ int main() {
     return 0 ;
 }//end function
 
-void showAll( struct studentNode **walk ) {
+void ShowAll( struct studentNode **walk ) {
     while( *walk != NULL ) {
         printf( "%s ", (*walk)->name ) ;
         walk = &(*walk)->next ;

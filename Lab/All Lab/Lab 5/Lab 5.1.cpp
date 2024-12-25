@@ -25,12 +25,12 @@ int main() {
     return 0 ;
 }//end function
 
-void showAll( struct studentNode *walk ) {
+void ShowAll( struct studentNode *walk ) {
     while( walk != NULL ) {
         printf( "%s ", walk->name ) ;
         walk = walk->next ;
     }//end while
-    printf( " " ) ;
+    printf( "\n" ) ;
 }//end function
 
 struct studentNode *AddNode( struct studentNode **walk, char name[], int age, char sex, float gpa ) {
@@ -40,6 +40,7 @@ struct studentNode *AddNode( struct studentNode **walk, char name[], int age, ch
     }//end while
 
     *walk = new struct studentNode ;
+    strcpy( (*walk)->name, name ) ;
     ( *walk )->age = age ;
     ( *walk )->sex = sex ;
     ( *walk )->gpa = gpa ;
