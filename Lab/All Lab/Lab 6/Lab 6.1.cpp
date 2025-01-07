@@ -2,11 +2,12 @@
 #include <string.h>
 
 struct studentNode {
-    char name[ 20 ] ;
-    int age ;
-    char sex ;
-    float gpa ;
+    char    name[ 20 ] ;
+    int     age ;
+    char    sex ;
+    float   gpa ;
     struct studentNode *next ;
+    struct studentNode *back ;
 } ;
 
 void ShowAll( struct studentNode *walk ) ;
@@ -21,7 +22,10 @@ int main() {
     now = AddNode( &start, "two", 8, 'F', 3.22 ) ; ShowAll( start ) ;
     InsNode( now, "three", 10, 'M', 3.33 ) ; ShowAll( start ) ;
     InsNode( now, "four", 12, 'F', 3.44 ) ; ShowAll( start ) ;
-    DelNode( &now ) ; ShowAll( start ) ;
+    GoBack( &now ) ;
+    DelNode( now ) ; ShowAll( start ) ;
+    DelNode( now ) ; ShowAll( start ) ;
+    DelNode( now ) ; ShowAll( start ) ;
     return 0 ;
 }//end function
 
@@ -34,7 +38,9 @@ void ShowAll( struct studentNode *walk ) {
 }//end function
 
 struct studentNode *AddNode( struct studentNode **walk, char name[], int age, char sex, float gpa ) {
+    struct studentNode *temp = NULL ;
     while( *walk != NULL ) {
+        temp = *walk ;
         walk = &( *walk )->next ;
     }//end while
     *walk = new struct studentNode ;
@@ -43,23 +49,21 @@ struct studentNode *AddNode( struct studentNode **walk, char name[], int age, ch
     ( *walk )->sex = sex ;
     ( *walk )->gpa = gpa ;
     ( *walk )->next = NULL ;
+    ( *walk )->back = temp ;
     return *walk ;
 }//end struct node *AddNode function
 
-void InsNode( struct studentNode *walk, char name[], int age, char sex, float gpa ) {
-    struct studentNode *temp ;
-    temp = walk->next ;
-    walk->next = new struct studentNode ;
-    strcpy( walk->next->name, name ) ;
-    walk->next->age = age ;
-    walk->next->sex = sex ;
-    walk->next->gpa = gpa ;
-    walk->next->next = temp ;
-}//end InsNode function
-
-void DelNode( struct studentNode **walk ) {
-    struct studentNode *temp ;
-    temp = ( *walk )->next->next ;
-    ( *walk )->next = temp ;
+void InsNode( struct studentNode *walk, char name[], int age, char sex, float gpa, struct node **begin ) {
+    if( walk->back != NULL ) {
+        walk->back->next = new struct studentNode ;
+        strcpy( walk->next->name, name ) ;
+        walk->next->age = age ;
+        walk->next->sex = sex ;
+        walk->next->gpa = gpa ;
+        walk->back->next->next = walk ;
+        walk->back->next->back = walk->back ;
+        walk->back = walk->back->next ;
+    } else {
+        *begin = new struct studentNode ;
+        ( * begin)->
 }
-
