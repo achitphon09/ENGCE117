@@ -1,0 +1,16 @@
+Employee's Name: Omar
+Salary (Bath/Month): 12750
+
+Employee's Name: Alice 
+Salary (Bath/Month): 15900
+
+Employee's Name: Max
+Salary (Bath/Month): 19860
+
+Employee's Name: -1
+
+Summary:
+All salary per month: 48,510.00 Bath
+All salary per year: 582,120.00 Bath
+Tax (7% per year): 40,748.40 Bath
+Most tax in company: Max (16,682.40 Bath per year)
