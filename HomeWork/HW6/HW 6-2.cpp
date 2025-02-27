@@ -8,7 +8,7 @@ int main() {
     scanf( "%d", &number ) ;
     printf( "%d = ", number ) ;
 
-    for( int i ; i < 13 ; i++ ) {
+    for( int i = 0 ; i < 13 ; i++ ) {
         while (number >= values[ i ] ) {
             printf( "%s", symbols[ i ] ) ;
             number -= values[ i ] ; 
